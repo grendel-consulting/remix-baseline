@@ -1,10 +1,10 @@
 {
-    "$schema": "https://turbo.build/schema.json",
-    "pipeline": {
-      "build": {
-        "outputs": ["build/**"]
-      },
-      "lint": {},
-      "typecheck": {}
-    }
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "outputs": ["build/**"]
+    },
+    "lint": {},
+    "typecheck": {}
   }
+}

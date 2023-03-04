@@ -1,0 +1,4 @@
+
+> baseline-remix-app@0.1.0 lint /Users/beowulf/Workspace/remix-baseline
+> eslint . --ext .ts,.tsx,.js,.jsx --ignore-path .gitignore
+
