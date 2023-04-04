@@ -49,8 +49,8 @@ devDependencies:
     specifier: ^7.0.0
     version: 7.0.0(react-dom@18.2.0)(react@18.2.0)
   '@storybook/jest':
-    specifier: ^0.0.11-next.2
-    version: 0.0.11-next.2
+    specifier: ^0.1.0
+    version: 0.1.0
   '@storybook/react':
     specifier: ^7.0.0
     version: 7.0.0(react-dom@18.2.0)(react@18.2.0)(typescript@5.0.3)
@@ -3599,16 +3599,6 @@ packages:
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
     dev: true
 
-  /@storybook/instrumenter@7.0.0:
-    resolution: {integrity: sha512-A7jBrV7VM3OxRgall8rpjagy3VC78A/OV1g1aYVVLpAF/+Odj+MeHHF179+fR6JBLnBgukNfsG7/ZHHGs0gL5Q==}
-    dependencies:
-      '@storybook/channels': 7.0.0
-      '@storybook/client-logger': 7.0.0
-      '@storybook/core-events': 7.0.0
-      '@storybook/global': 5.0.0
-      '@storybook/preview-api': 7.0.0
-    dev: true
-
   /@storybook/instrumenter@7.0.2:
     resolution: {integrity: sha512-zr9/fuaYtGVUtcL8XgjA4Iq5jtzdcqQyOSH4XLXtz6JtSad3lkRagbJo2Vzbw7dO/4vzjfTMxEzvWjUuPxLOhA==}
     dependencies:
@@ -3619,11 +3609,11 @@ packages:
       '@storybook/preview-api': 7.0.2
     dev: true
 
-  /@storybook/jest@0.0.11-next.2:
-    resolution: {integrity: sha512-D0cKu+vMXvggYrJFyTGu0WnFFSGcauJFgTmm2/bx4rSY29duvJkTyOJjNmNAtahLek6Ip1SjxZy+E+/vfTfLBg==}
+  /@storybook/jest@0.1.0:
+    resolution: {integrity: sha512-TmybnEXlv5Fu2/Hq4nRj7alS9mw4CasLR0RDwaAzS+Vpvu1TC4+j9rh+b1BHtmWebbJh0JMT6mgzPqOyJdgtQA==}
     dependencies:
       '@storybook/expect': 27.5.2-0
-      '@storybook/instrumenter': 7.0.0
+      '@storybook/instrumenter': 7.0.2
       '@testing-library/jest-dom': 5.16.5
       jest-mock: 27.5.1
     dev: true
