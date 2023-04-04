@@ -1,6 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", "schedule:nonOfficeHours"],
+  "packageRules": [
+    {
+      "extends": "monorepo:storybook",
+      "groupName": "storybook"
+    }
+  ],
   "timezone": "Europe/London",
   "vulnerabilityAlerts": {
     "labels": ["security"],
