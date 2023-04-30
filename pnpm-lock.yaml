@@ -79,8 +79,8 @@ devDependencies:
     specifier: 15.0.0
     version: 15.0.0(eslint@8.39.0)
   eslint-plugin-promise:
-    specifier: 6.0.0
-    version: 6.0.0(eslint@8.39.0)
+    specifier: 6.1.1
+    version: 6.1.1(eslint@8.39.0)
   eslint-plugin-react:
     specifier: 7.32.2
     version: 7.32.2(eslint@8.39.0)
@@ -6479,8 +6479,8 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-promise@6.0.0(eslint@8.39.0):
-    resolution: {integrity: sha512-7GPezalm5Bfi/E22PnQxDWH2iW9GTvAlUNTztemeHb6c1BniSyoeTrM87JkC0wYdi6aQrZX9p2qEiAno8aTcbw==}
+  /eslint-plugin-promise@6.1.1(eslint@8.39.0):
+    resolution: {integrity: sha512-tjqWDwVZQo7UIPMeDReOpUgHCmCiH+ePnVT+5zVapL0uuHnegBUs2smM13CzOs2Xb5+MHMRFTs9v24yjba4Oig==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
