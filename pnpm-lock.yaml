@@ -32,8 +32,8 @@ devDependencies:
     specifier: 1.19.3
     version: 1.19.3(@remix-run/serve@1.19.3)
   '@remix-run/eslint-config':
-    specifier: 2.0.0
-    version: 2.0.0(eslint@8.49.0)(react@18.2.0)(typescript@5.2.2)
+    specifier: 2.0.1
+    version: 2.0.1(eslint@8.49.0)(react@18.2.0)(typescript@5.2.2)
   '@storybook/addon-a11y':
     specifier: 7.4.2
     version: 7.4.2(@types/react-dom@18.2.7)(@types/react@18.2.22)(react-dom@18.2.0)(react@18.2.0)
@@ -3337,8 +3337,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@remix-run/eslint-config@2.0.0(eslint@8.49.0)(react@18.2.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-zGkP8BGKDU41TkWnWMqkz/OsNacYoqiTAGzc8PzkmILdEHFfj6IFiseCLMdzZppYFLoZQGo8/Lpe1b7IidxDOg==}
+  /@remix-run/eslint-config@2.0.1(eslint@8.49.0)(react@18.2.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-XIKnID45O60Vtegsib2qJOVYBCq2VRn+3qaEAX1NtgcQDI1xD7o3k1k3MCdQqaGD9/XmcbJumkmuAIX3Ti6/mA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       eslint: ^8.0.0
