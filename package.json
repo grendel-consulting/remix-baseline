@@ -50,7 +50,7 @@
     "prettier": "3.0.3",
     "prop-types": "15.8.1",
     "storybook": "7.4.5",
-    "turbo": "1.10.14",
+    "turbo": "1.10.15",
     "typescript": "5.2.2"
   },
   "packageManager": "pnpm@8.9.0",
