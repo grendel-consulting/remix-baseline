@@ -51,7 +51,7 @@
     "prop-types": "15.8.1",
     "storybook": "7.6.17",
     "turbo": "1.12.5",
-    "typescript": "5.3.3"
+    "typescript": "5.4.2"
   },
   "packageManager": "pnpm@8.15.4",
   "engines": {
