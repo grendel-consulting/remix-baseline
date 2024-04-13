@@ -80,4 +80,4 @@ jobs:
               git add pnpm-lock.yaml
               git commit -s -m "chore(deps): refresh caniuse browser database"
               git push origin refresh-caniuse
-              gh pr create
+              gh pr create --title "chore(deps): refresh caniuse browser database" --body "Automagically created"
