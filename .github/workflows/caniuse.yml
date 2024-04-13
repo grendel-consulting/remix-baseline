@@ -76,5 +76,5 @@ jobs:
               git checkout -b refresh-caniuse
               git add pnpm-lock.yaml
               git commit -s -m "chore(deps): refresh caniuse browser database"
-              git push
+              git push origin refresh-caniuse
               gh pr create
