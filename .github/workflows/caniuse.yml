@@ -18,8 +18,9 @@ jobs:
         name: prepare-repo
         runs-on: ubuntu-latest
     
-        outputs:
-          refreshed: ${{ steps.refreshed.outputs.refreshed }}
+        permissions:
+          contents: write
+          pull-requests: write
          
         steps:
           - name: Harden Runner
@@ -67,18 +68,8 @@ jobs:
           - id: refreshed
             run: echo "refreshed=$(git diff --name-only --exit-code HEAD pnpm-lock.yaml)" >> $GITHUB_OUTPUT
 
-    change:
-        name: create-pr
-        if: ${{ needs.prepare.outputs.refreshed != '' }}
-        runs-on: ubuntu-latest
-        needs: prepare
-
-        permissions:
-            contents: write
-            pull-requests: write
-          
-        steps:
           - name: Create Pull Request
+            if: ${{ steps.refreshed.outputs.refreshed != '' }}
             run: |
               git config --global user.name "github-actions"
               git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
