@@ -34,8 +34,8 @@ importers:
         specifier: 2.9.1
         version: 2.9.1(@remix-run/react@2.9.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.4.5))(@remix-run/serve@2.9.1(typescript@5.4.5))(@types/node@18.15.3)(typescript@5.4.5)
       '@remix-run/eslint-config':
-        specifier: 2.9.1
-        version: 2.9.1(eslint@9.2.0)(react@18.3.1)(typescript@5.4.5)
+        specifier: 2.9.2
+        version: 2.9.2(eslint@9.2.0)(react@18.3.1)(typescript@5.4.5)
       '@storybook/addon-a11y':
         specifier: 7.6.17
         version: 7.6.17
@@ -82,8 +82,8 @@ importers:
         specifier: 2.29.1
         version: 2.29.1(@typescript-eslint/parser@7.8.0(eslint@9.2.0)(typescript@5.4.5))(eslint@9.2.0)
       eslint-plugin-n:
-        specifier: 17.5.1
-        version: 17.5.1(eslint@9.2.0)
+        specifier: 17.6.0
+        version: 17.6.0(eslint@9.2.0)
       eslint-plugin-promise:
         specifier: 6.1.1
         version: 6.1.1(eslint@9.2.0)
@@ -1641,8 +1641,8 @@ packages:
       wrangler:
         optional: true
 
-  '@remix-run/eslint-config@2.9.1':
-    resolution: {integrity: sha512-2ij9MNX5dd7qDCLAlPmIasZ4JkRydFwd9CaIq9JlBsW0HJEGhIMjg27ofLu4aToWLr5yW9RduCSq2/ypjhiy1g==}
+  '@remix-run/eslint-config@2.9.2':
+    resolution: {integrity: sha512-tZV98Fz1QHAwIA9MOo48Es0ltAzvOIj/uCjCDsKOEndhEX+qwH1qC7eLIBGJiRDgEO3hIQUtzUuw5S6J8B2B+w==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       eslint: ^8.0.0
@@ -3172,8 +3172,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
 
-  eslint-plugin-n@17.5.1:
-    resolution: {integrity: sha512-+E242KoY16xtwqqBRgSsDCrZ3K40jg3Np9fOgQyakcHaqymK3bnxYB1F1oe8Ksts8TDDViROFgraoLzbWhfHVw==}
+  eslint-plugin-n@17.6.0:
+    resolution: {integrity: sha512-Y73o88ROwbCtVCCmZjYlYcPYkOG7mIzxxVK1XFRSa2epbKWtAPsmYpAD0pqxg/ZwlcWxMDceQPKHYQi4VIHz7w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
@@ -7924,7 +7924,7 @@ snapshots:
       - ts-node
       - utf-8-validate
 
-  '@remix-run/eslint-config@2.9.1(eslint@9.2.0)(react@18.3.1)(typescript@5.4.5)':
+  '@remix-run/eslint-config@2.9.2(eslint@9.2.0)(react@18.3.1)(typescript@5.4.5)':
     dependencies:
       '@babel/core': 7.23.5
       '@babel/eslint-parser': 7.21.8(@babel/core@7.23.5)(eslint@9.2.0)
@@ -10215,7 +10215,7 @@ snapshots:
       object.fromentries: 2.0.7
       semver: 6.3.1
 
-  eslint-plugin-n@17.5.1(eslint@9.2.0):
+  eslint-plugin-n@17.6.0(eslint@9.2.0):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.2.0)
       enhanced-resolve: 5.16.0
