@@ -47,7 +47,7 @@
     "eslint-plugin-promise": "6.4.0",
     "eslint-plugin-react": "7.34.3",
     "eslint-plugin-storybook": "0.8.0",
-    "prettier": "3.3.2",
+    "prettier": "3.3.3",
     "prop-types": "15.8.1",
     "storybook": "7.6.20",
     "turbo": "2.0.6",
