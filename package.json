@@ -27,7 +27,7 @@
   "devDependencies": {
     "@changesets/cli": "2.27.7",
     "@remix-run/dev": "2.10.2",
-    "@remix-run/eslint-config": "2.10.2",
+    "@remix-run/eslint-config": "2.10.3",
     "@storybook/addon-a11y": "7.6.20",
     "@storybook/addon-essentials": "7.6.20",
     "@storybook/addon-interactions": "7.6.20",
