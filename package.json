@@ -50,7 +50,7 @@
     "prettier": "3.3.3",
     "prop-types": "15.8.1",
     "storybook": "7.6.20",
-    "turbo": "2.0.6",
+    "turbo": "2.0.7",
     "typescript": "5.5.3"
   },
   "overrides": {
