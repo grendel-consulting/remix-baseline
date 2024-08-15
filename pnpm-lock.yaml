@@ -34,8 +34,8 @@ importers:
         specifier: 2.11.1
         version: 2.11.1(@remix-run/react@2.11.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.5.4))(@remix-run/serve@2.11.1(typescript@5.5.4))(@types/node@18.15.3)(typescript@5.5.4)
       '@remix-run/eslint-config':
-        specifier: 2.11.1
-        version: 2.11.1(eslint@9.9.0)(react@18.3.1)(typescript@5.5.4)
+        specifier: 2.11.2
+        version: 2.11.2(eslint@9.9.0)(react@18.3.1)(typescript@5.5.4)
       '@storybook/addon-a11y':
         specifier: 7.6.20
         version: 7.6.20
@@ -1645,8 +1645,8 @@ packages:
       wrangler:
         optional: true
 
-  '@remix-run/eslint-config@2.11.1':
-    resolution: {integrity: sha512-Qzrww4D1Bfl+Z+qYprOc43/iEl/QS1i+kTo0XickLMEiTsal0qEeIt9Zod6alO0DvLEm6ixUPQDHKcn2trwLtA==}
+  '@remix-run/eslint-config@2.11.2':
+    resolution: {integrity: sha512-IclP0pBI7cqmKhHqa6qWY0rAF7cXCM+xODuIkt9DpR6dvgDW3TpCTB4tqOavIYDsLGNkx1sPfkXjpe3FIrT9Xw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       eslint: ^8.0.0
@@ -7839,7 +7839,7 @@ snapshots:
       - ts-node
       - utf-8-validate
 
-  '@remix-run/eslint-config@2.11.1(eslint@9.9.0)(react@18.3.1)(typescript@5.5.4)':
+  '@remix-run/eslint-config@2.11.2(eslint@9.9.0)(react@18.3.1)(typescript@5.5.4)':
     dependencies:
       '@babel/core': 7.23.5
       '@babel/eslint-parser': 7.21.8(@babel/core@7.23.5)(eslint@9.9.0)
