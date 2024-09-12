@@ -88,8 +88,8 @@ importers:
         specifier: 7.1.0
         version: 7.1.0(eslint@9.10.0)
       eslint-plugin-react:
-        specifier: 7.35.2
-        version: 7.35.2(eslint@9.10.0)
+        specifier: 7.36.1
+        version: 7.36.1(eslint@9.10.0)
       eslint-plugin-storybook:
         specifier: 0.8.0
         version: 0.8.0(eslint@9.10.0)(typescript@5.6.2)
@@ -3172,8 +3172,8 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
 
-  eslint-plugin-react@7.35.2:
-    resolution: {integrity: sha512-Rbj2R9zwP2GYNcIak4xoAMV57hrBh3hTaR0k7hVjwCQgryE/pw5px4b13EYjduOI0hfXyZhwBxaGpOTbWSGzKQ==}
+  eslint-plugin-react@7.36.1:
+    resolution: {integrity: sha512-/qwbqNXZoq+VP30s1d4Nc1C5GTxjJQjk4Jzs4Wq2qzxFM7dSmuG2UkIjg2USMLh3A/aVcUNrK7v0J5U1XEGGwA==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
@@ -7801,7 +7801,7 @@ snapshots:
       eslint-plugin-jest-dom: 4.0.3(eslint@9.10.0)
       eslint-plugin-jsx-a11y: 6.7.1(eslint@9.10.0)
       eslint-plugin-node: 11.1.0(eslint@9.10.0)
-      eslint-plugin-react: 7.35.2(eslint@9.10.0)
+      eslint-plugin-react: 7.36.1(eslint@9.10.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@9.10.0)
       eslint-plugin-testing-library: 5.10.2(eslint@9.10.0)(typescript@5.6.2)
       react: 18.3.1
@@ -10074,7 +10074,7 @@ snapshots:
     dependencies:
       eslint: 9.10.0
 
-  eslint-plugin-react@7.35.2(eslint@9.10.0):
+  eslint-plugin-react@7.36.1(eslint@9.10.0):
     dependencies:
       array-includes: 3.1.8
       array.prototype.findlast: 1.2.5
@@ -12489,7 +12489,7 @@ snapshots:
 
   resolve@2.0.0-next.5:
     dependencies:
-      is-core-module: 2.13.1
+      is-core-module: 2.15.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
