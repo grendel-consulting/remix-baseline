@@ -25,7 +25,7 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@changesets/cli": "2.27.8",
+    "@changesets/cli": "2.27.9",
     "@remix-run/dev": "2.12.1",
     "@remix-run/eslint-config": "2.12.1",
     "@storybook/addon-a11y": "7.6.20",
