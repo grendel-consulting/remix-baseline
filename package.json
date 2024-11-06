@@ -163,7 +163,6 @@
       "unbox-primitive": "npm:@socketregistry/unbox-primitive@^1",
       "undici@>=6.14.0 <6.19.2": ">=6.19.2",
       "vite@>=4.0.0 <=4.5.3": ">=4.5.4",
-      "vite@>=4.0.0 <4.5.4": ">=4.5.4",
       "which-boxed-primitive": "npm:@socketregistry/which-boxed-primitive@^1",
       "which-collection": "npm:@socketregistry/which-collection@^1",
       "which-typed-array": "npm:@socketregistry/which-typed-array@^1",
