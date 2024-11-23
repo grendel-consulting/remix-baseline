@@ -144,8 +144,8 @@ importers:
         specifier: 2.14.0
         version: 2.14.0(@remix-run/react@2.14.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.6.3))(@remix-run/serve@2.14.0(typescript@5.6.3))(@types/node@18.15.3)(typescript@5.6.3)(vite@5.4.9(@types/node@18.15.3))
       '@remix-run/eslint-config':
-        specifier: 2.14.0
-        version: 2.14.0(eslint@9.15.0)(react@18.3.1)(typescript@5.6.3)
+        specifier: 2.15.0
+        version: 2.15.0(eslint@9.15.0)(react@18.3.1)(typescript@5.6.3)
       '@storybook/addon-a11y':
         specifier: 7.6.20
         version: 7.6.20
@@ -1917,10 +1917,9 @@ packages:
       wrangler:
         optional: true
 
-  '@remix-run/eslint-config@2.14.0':
-    resolution: {integrity: sha512-/wBt/AVgBMNw8HWifSha/7dwaGudmyWo7FB7M+LKloZPZc+XR60cMqKSXJeWwJTo+pic++4V1GhQnKc+Cx3GyA==}
+  '@remix-run/eslint-config@2.15.0':
+    resolution: {integrity: sha512-Vx5eOQu0gU9wkK6eboWjGVWRzjZw/GzT6OPIL45HdxTAeZ5KETSUkWpI5pJZ1lGK/rhH9QLd5pR0UUfwWLKUvA==}
     engines: {node: '>=18.0.0'}
-    deprecated: Will no longer be maintained in React Router v7
     peerDependencies:
       eslint: ^8.0.0
       react: ^18.0.0
@@ -8030,7 +8029,7 @@ snapshots:
       - ts-node
       - utf-8-validate
 
-  '@remix-run/eslint-config@2.14.0(eslint@9.15.0)(react@18.3.1)(typescript@5.6.3)':
+  '@remix-run/eslint-config@2.15.0(eslint@9.15.0)(react@18.3.1)(typescript@5.6.3)':
     dependencies:
       '@babel/core': 7.23.5
       '@babel/eslint-parser': 7.21.8(@babel/core@7.23.5)(eslint@9.15.0)
