@@ -144,8 +144,8 @@ importers:
         specifier: 2.15.1
         version: 2.15.1(@remix-run/react@2.15.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@remix-run/serve@2.15.1(typescript@5.7.2))(@types/node@18.15.3)(typescript@5.7.2)(vite@5.4.9(@types/node@18.15.3))
       '@remix-run/eslint-config':
-        specifier: 2.15.1
-        version: 2.15.1(eslint@9.17.0)(react@18.3.1)(typescript@5.7.2)
+        specifier: 2.15.2
+        version: 2.15.2(eslint@9.17.0)(react@18.3.1)(typescript@5.7.2)
       '@storybook/addon-a11y':
         specifier: 7.6.20
         version: 7.6.20
@@ -192,8 +192,8 @@ importers:
         specifier: 2.31.0
         version: 2.31.0(@typescript-eslint/parser@8.18.1(eslint@9.17.0)(typescript@5.7.2))(eslint@9.17.0)
       eslint-plugin-n:
-        specifier: 17.15.0
-        version: 17.15.0(eslint@9.17.0)
+        specifier: 17.15.1
+        version: 17.15.1(eslint@9.17.0)
       eslint-plugin-promise:
         specifier: 7.2.1
         version: 7.2.1(eslint@9.17.0)
@@ -1917,8 +1917,8 @@ packages:
       wrangler:
         optional: true
 
-  '@remix-run/eslint-config@2.15.1':
-    resolution: {integrity: sha512-1H2yVGlnxAF4yWeyInJCZrEAMF6FyFsqS7EGZ21B6QeXMT0rjkmKElkB9qaGjmZl8pzS4PLE4ve9o2Ahccxrew==}
+  '@remix-run/eslint-config@2.15.2':
+    resolution: {integrity: sha512-zch4J6ImrEjSvCbT9qufhubm6ym8E7LgGWpRihR2KB6oZndKEnSNe4ZklrwFXxIeGG+ACFSVm9JPR0lmAcAbTg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       eslint: ^8.0.0
@@ -3635,8 +3635,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
 
-  eslint-plugin-n@17.15.0:
-    resolution: {integrity: sha512-xF3zJkOfLlFOm5TvmqmsnA9/fO+/z2pYs0dkuKXKN/ymS6UB1yEcaoIkqxLKQ9Dw/WmLX/Tdh6/5ZS5azVixFQ==}
+  eslint-plugin-n@17.15.1:
+    resolution: {integrity: sha512-KFw7x02hZZkBdbZEFQduRGH4VkIH4MW97ClsbAM4Y4E6KguBJWGfWG1P4HEIpZk2bkoWf0bojpnjNAhYQP8beA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
@@ -8023,7 +8023,7 @@ snapshots:
       - ts-node
       - utf-8-validate
 
-  '@remix-run/eslint-config@2.15.1(eslint@9.17.0)(react@18.3.1)(typescript@5.7.2)':
+  '@remix-run/eslint-config@2.15.2(eslint@9.17.0)(react@18.3.1)(typescript@5.7.2)':
     dependencies:
       '@babel/core': 7.23.5
       '@babel/eslint-parser': 7.21.8(@babel/core@7.23.5)(eslint@9.17.0)
@@ -10296,7 +10296,7 @@ snapshots:
       object.fromentries: '@socketregistry/object.fromentries@1.0.5'
       semver: 6.3.1
 
-  eslint-plugin-n@17.15.0(eslint@9.17.0):
+  eslint-plugin-n@17.15.1(eslint@9.17.0):
     dependencies:
       '@eslint-community/eslint-utils': 4.4.1(eslint@9.17.0)
       enhanced-resolve: 5.17.1
