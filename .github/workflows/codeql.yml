@@ -7,8 +7,8 @@ on:
     branches: [ "main" ]
     paths-ignore:
       - '**/*.md'
-  schedule:
-    - cron: '32 07 * * 3'
+  # schedule:
+  #   - cron: '32 07 * * 3'
 
 permissions: {}
 
